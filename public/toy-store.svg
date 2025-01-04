@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fundo circular com gradiente -->
+  <circle cx="16" cy="16" r="16" fill="url(#paint0_radial)"/>
+  
+  <!-- Base do castelo -->
+  <path d="M6 24V16H26V24H6Z" fill="#FFD700"/>
+  
+  <!-- Torres laterais -->
+  <path d="M7 16V12L10 10V16H7Z" fill="#FFD700"/>
+  <path d="M22 16V12L25 10V16H22Z" fill="#FFD700"/>
+  
+  <!-- Torre central -->
+  <path d="M14 16V8L18 8V16H14Z" fill="#FFD700"/>
+  
+  <!-- Topo das torres com ameias -->
+  <path d="M7 12L8 11L9 12L10 11V12H7Z" fill="#E74C3C"/>
+  <path d="M22 12L23 11L24 12L25 11V12H22Z" fill="#E74C3C"/>
+  <path d="M14 8L15 7L16 8L17 7L18 8H14Z" fill="#E74C3C"/>
+  
+  <!-- Janelas -->
+  <circle cx="8.5" cy="14" r="1" fill="#2980B9"/>
+  <circle cx="23.5" cy="14" r="1" fill="#2980B9"/>
+  <rect x="15" y="10" width="2" height="3" rx="1" fill="#2980B9"/>
+  
+  <!-- Porta -->
+  <path d="M14 20H18V24H14V20Z" fill="#E67E22"/>
+  <circle cx="17" cy="22" r="0.5" fill="#F1C40F"/>
+  
+  <!-- Bandeiras tremulantes -->
+  <path d="M8.5 9.5L10 8.5L8.5 7.5" stroke="#E74C3C" stroke-width="0.5">
+    <animate attributeName="d" values="M8.5 9.5L10 8.5L8.5 7.5;M8.5 9.5L10 8.5L8.5 9.5;M8.5 9.5L10 8.5L8.5 7.5" dur="2s" repeatCount="indefinite"/>
+  </path>
+  <path d="M23.5 9.5L25 8.5L23.5 7.5" stroke="#E74C3C" stroke-width="0.5">
+    <animate attributeName="d" values="M23.5 9.5L25 8.5L23.5 7.5;M23.5 9.5L25 8.5L23.5 9.5;M23.5 9.5L25 8.5L23.5 7.5" dur="2s" repeatCount="indefinite" begin="0.5s"/>
+  </path>
+  <path d="M16 5.5L17.5 4.5L16 3.5" stroke="#E74C3C" stroke-width="0.5">
+    <animate attributeName="d" values="M16 5.5L17.5 4.5L16 3.5;M16 5.5L17.5 4.5L16 5.5;M16 5.5L17.5 4.5L16 3.5" dur="2s" repeatCount="indefinite" begin="1s"/>
+  </path>
+  
+  <!-- Definições dos gradientes -->
+  <defs>
+    <radialGradient id="paint0_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(16 16) rotate(90) scale(16)">
+      <stop offset="0%" stop-color="#2ECC71"/>
+      <stop offset="100%" stop-color="#27AE60"/>
+    </radialGradient>
+  </defs>
+</svg> 
