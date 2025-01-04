@@ -71,12 +71,12 @@ KidsWorld é um e-commerce moderno e intuitivo especializado em produtos infanti
 
 ## 🎯 Próximos Passos
 
-- [ ] Implementação de sistema de pagamento
-- [ ] Autenticação de usuários
-- [ ] Sistema de avaliações de produtos
-- [ ] Histórico de pedidos
-- [ ] Wishlist de produtos
-- [ ] Integração com APIs de entrega
+- [X] Implementação de sistema de pagamento
+- [X] Autenticação de usuários
+- [X] Sistema de avaliações de produtos
+- [X] Histórico de pedidos
+- [X] Wishlist de produtos
+- [X] Integração com APIs de entrega
 
 ## 🤝 Contribuição
 
