@@ -2,8 +2,6 @@
 
 <div align="center">
 
-![KidsWorld Logo](public/logo.png)
-
 [![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/)
 [![Chakra UI](https://img.shields.io/badge/Chakra_UI-319795?style=for-the-badge&logo=chakra-ui&logoColor=white)](https://chakra-ui.com/)
 [![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
@@ -37,22 +35,22 @@ KidsWorld é um e-commerce moderno e intuitivo especializado em produtos infanti
 ## 🛠️ Instalação e Uso
 
 1. Clone o repositório:
-   \`\`\`bash
+   ```bash
    git clone https://github.com/seu-usuario/produtos-infantis.git
-   \`\`\`
+   ```
 
 2. Instale as dependências:
-   \`\`\`bash
+   ```bash
    cd produtos-infantis
    npm install
-   \`\`\`
+   ```
 
 3. Inicie o servidor de desenvolvimento:
-   \`\`\`bash
+   ```bash
    npm run dev
-   \`\`\`
+   ```
 
-4. Acesse http://localhost:5173 no seu navegador
+4. Acesse [http://localhost:5173](http://localhost:5173) no seu navegador.
 
 ## 📱 Funcionalidades
 
@@ -73,22 +71,22 @@ KidsWorld é um e-commerce moderno e intuitivo especializado em produtos infanti
 
 ## 🎯 Próximos Passos
 
-- [X] Implementação de sistema de pagamento
-- [X] Autenticação de usuários
-- [X] Sistema de avaliações de produtos
-- [X] Histórico de pedidos
-- [X] Wishlist de produtos
-- [X] Integração com APIs de entrega
+- [ ] Implementação de sistema de pagamento
+- [ ] Autenticação de usuários
+- [ ] Sistema de avaliações de produtos
+- [ ] Histórico de pedidos
+- [ ] Wishlist de produtos
+- [ ] Integração com APIs de entrega
 
 ## 🤝 Contribuição
 
 Contribuições são sempre bem-vindas! Para contribuir:
 
-1. Faça um Fork do projeto
-2. Crie uma Branch para sua Feature (\`git checkout -b feature/AmazingFeature\`)
-3. Faça o Commit das suas mudanças (\`git commit -m 'Add some AmazingFeature'\`)
-4. Faça o Push para a Branch (\`git push origin feature/AmazingFeature\`)
-5. Abra um Pull Request
+1. Faça um Fork do projeto.
+2. Crie uma Branch para sua Feature (`git checkout -b feature/AmazingFeature`).
+3. Faça o Commit das suas mudanças (`git commit -m 'Add some AmazingFeature'`).
+4. Faça o Push para a Branch (`git push origin feature/AmazingFeature`).
+5. Abra um Pull Request.
 
 ## 📝 Licença
 
